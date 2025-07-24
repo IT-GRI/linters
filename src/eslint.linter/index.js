@@ -43,10 +43,9 @@ export function GRIESLint(...userConfigs) {
       'vue/require-explicit-emits': ['error'],
       'padding-line-between-statements': [
         'error',
-        { blankLine: 'always', prev: 'const', next: '*' },
-        { blankLine: 'always', prev: 'let', next: '*' },
-        { blankLine: 'any', prev: 'let', next: 'let' },
-        { blankLine: 'any', prev: 'const', next: 'const' },
+        { blankLine: 'always', prev: 'function', next: '*' },
+        { blankLine: 'always', prev: ['const', 'let'], next: '*' },
+        { blankLine: 'any', prev: ['const', 'let'], next: ['const', 'let'] },
         { blankLine: 'always', prev: '*', next: 'return' },
       ],
       'test/no-identical-title': 'error',
