@@ -1,9 +1,12 @@
-// eslint.config.mjs
-import type { TypedFlatConfigItem } from '@antfu/eslint-config';
 import antfu from '@antfu/eslint-config';
 import storybook from 'eslint-plugin-storybook';
 
-export function GRIESLint(...userConfigs: TypedFlatConfigItem[]) {
+/**
+ *
+ * @param {import('@antfu/eslint-config').TypedFlatConfigItem[]} userConfigs
+ * @constructor
+ */
+export function GRIESLint(...userConfigs) {
   return antfu({
     vue: true,
     typescript: true,

@@ -1,3 +1,3 @@
-import { GRIStylelintConfig } from './src/stylelint.linter/index.js';
+import { GRIStylelintConfig } from './index.js';
 
 export default GRIStylelintConfig;

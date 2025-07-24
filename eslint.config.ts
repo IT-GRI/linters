@@ -1,3 +1,3 @@
-import { GRIESLint } from './src/eslint.linter/index.ts';
+import { GRIESLint } from './src/eslint.linter';
 
 export default GRIESLint();
