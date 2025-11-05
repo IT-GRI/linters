@@ -32,6 +32,7 @@ export function GRIESLint(...userConfigs) {
       'vue/multiline-html-element-content-newline': ['error'],
       'vue/no-required-prop-with-default': ['error'],
       'vue/v-on-handler-style': ['error', ['method', 'inline']],
+      'vue/html-self-closing': ['error'],
       'vue/max-attributes-per-line': [
         'error',
         {
