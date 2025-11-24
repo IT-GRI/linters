@@ -27,7 +27,7 @@ function ruleFunction() {
       });
     });
   };
-};
+}
 
 ruleFunction.ruleName = ruleName;
 ruleFunction.messages = messages;
