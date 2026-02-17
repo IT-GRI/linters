@@ -84,6 +84,8 @@ export function GRIESLint(...userConfigs) {
       'vue/prefer-true-attribute-shorthand': ['error'],
       'vue/prefer-use-template-ref': ['error'],
       'vue/v-on-event-hyphenation': ['error'],
+      'vue/html-closing-bracket-spacing': ['error'],
+      'vue/mustache-interpolation-spacing': ['error'],
       'padding-line-between-statements': [
         'error',
         { blankLine: 'always', prev: 'function', next: '*' },
