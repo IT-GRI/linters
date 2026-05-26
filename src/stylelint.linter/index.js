@@ -25,6 +25,10 @@ export const GRIStylelintConfig = {
       },
     ],
     'media-feature-range-notation': ['prefix'],
+    'selector-pseudo-class-no-unknown': [
+      true,
+      { ignorePseudoClasses: ['global'] },
+    ],
   },
   overrides: [{
     files: '*.scss',
@@ -35,6 +39,10 @@ export const GRIStylelintConfig = {
       'scss/at-use-no-unnamespaced': true,
       'scss/load-partial-extension': 'always',
       'sunlight/at-rule-namespace': true,
+      'selector-pseudo-class-no-unknown': [
+        true,
+        { ignorePseudoClasses: ['global'] },
+      ],
     },
   }],
 };
