@@ -28,4 +28,8 @@ const emits = defineEmits<{
 function onClick() {
   emits('good');
 }
+
+if (props.name) {
+  emits('good');
+}
 </script>

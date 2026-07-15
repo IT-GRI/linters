@@ -15,6 +15,7 @@ export function GRIESLint(...userConfigs) {
     },
   }, storybook.configs['flat/recommended'], {
     rules: {
+      'curly': ['error'],
       'style/semi': ['error', 'always'],
       'style/brace-style': ['error', '1tbs'],
       'no-undef': ['error'],
